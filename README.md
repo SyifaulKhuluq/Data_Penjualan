@@ -43,12 +43,13 @@ Dashboard interaktif untuk menganalisis data penjualan bulanan menggunakan **Str
 
 ```
 .
-├── README.md                    # Dokumentasi
-├── Sample_Data_Analisis.csv     # Data penjualan
-├── dashboard_data_penjualan.py  # Script Utama Streamlit
-├── preview_dashboard_1.png      # Screenshot Tampilan Dashboard
-├── preview_dashboard_2.png      # Screenshot Tampilan Dashboard
-├── preview_dashboard_3.png      # Screenshot Tampilan Dashboard
+├── README.md                    # Dokumentasi.
+├── Sample_Data_Analisis.csv     # Data penjualan.
+├── dashboard_data_penjualan.py  # Script Utama Streamlit.
+├── preview_dashboard_1.png      # Screenshot Tampilan Dashboard & Total Penjualan Per-Bulan.
+├── preview_dashboard_2.png      # Screenshot Tampilan Produk Terlaris & Penjualan Per-Kategori.
+├── preview_dashboard_3.png      # Screenshot Tampilan Lokasi Pelanggan & Seller dengan Penjualan Terbanyak.
+├── preview_dashboard_4.png      # Screenshot Tampilan Tabel Data Transaksi < Export to Excel >
 └── requirements.txt             # Dependensi
 ```
 
