@@ -92,6 +92,7 @@ with tab1:
 
     st.subheader("📅 Total Penjualan per Bulan")
     monthly_sales = df.groupby('month')['total'].sum().reset_index()
+    monthly_sales['month'] = monthly_sales['month'].astype(str)
     fig1 = px.line(monthly_sales, x='month', y='total', markers=True, title="Total Penjualan per Bulan", color_discrete_sequence=['#00C49A'])
     st.plotly_chart(fig1, use_container_width=True)
 
