@@ -18,6 +18,8 @@ Dashboard interaktif untuk menganalisis data penjualan bulanan menggunakan **Str
 ![Dashboard Preview](preview_dashboard_1.png)
 ![Dashboard Preview](preview_dashboard_2.png)
 ![Dashboard Preview](preview_dashboard_3.png)
+![Dashboard Preview](preview_dashboard_4.png)
+
 
 ## 🛠️ Instalasi & Menjalankan
 
