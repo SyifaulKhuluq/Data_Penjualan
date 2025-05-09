@@ -1,4 +1,3 @@
-
 # Import Library
 import streamlit as st
 import pandas as pd
@@ -105,6 +104,12 @@ with tab1:
     top_categories = filtered_df.groupby('category')['quantity'].sum().reset_index().sort_values(by='quantity')
     fig3 = px.bar(top_categories, x='quantity', y='category', orientation='h', title="Penjualan per Kategori", color='quantity', color_continuous_scale='Teal')
     st.plotly_chart(fig3, use_container_width=True)
+
+    if 'customer_location' in filtered_df.columns:
+        st.subheader("📍 Penjualan per Lokasi Pelanggan")
+        location_sales = filtered_df.groupby('customer_location')['total'].sum().reset_index().sort_values(by='total', ascending=False)
+        fig4 = px.bar(location_sales, x='customer_location', y='total', title='Penjualan per Lokasi Pelanggan', color='total', color_continuous_scale='Agsunset')
+        st.plotly_chart(fig4, use_container_width=True)
 
     st.subheader("💼 5 Penjual dengan Pendapatan Tertinggi")
     top_sellers = filtered_df.groupby('seller_id')['total'].sum().sort_values(ascending=False).head(5).reset_index()
