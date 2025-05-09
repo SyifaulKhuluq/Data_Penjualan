@@ -6,10 +6,12 @@ Dashboard interaktif untuk menganalisis data penjualan bulanan menggunakan **Str
 ## 🎯 Fitur Utama
 
 - Filter data berdasarkan bulan dan kategori produk
+- Filter data berdasarkan lokasi pelanggan
 - Visualisasi total penjualan per bulan
 - Daftar produk terlaris dan kategori terbanyak
+- Total penjuala per-lokasi pelanggan
 - Tabel transaksi dan fitur unduh ke Excel
-- Tampilan interaktif dan responsif dengan animasi Lottie
+- Tampilan interaktif dan responsif
 
 ## 🖼️ Tampilan Dashboard
 
@@ -21,8 +23,8 @@ Dashboard interaktif untuk menganalisis data penjualan bulanan menggunakan **Str
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/dashboard-penjualan.git
-   cd dashboard-penjualan
+   git clone https://github.com/SyifaulKhuluq/Data_Penjualan.git
+   cd Data-Penjualan
    ```
 
 2. Install dependensi:
@@ -32,26 +34,26 @@ Dashboard interaktif untuk menganalisis data penjualan bulanan menggunakan **Str
 
 3. Jalankan aplikasi:
    ```bash
-   streamlit run Data_Penjualan.py
+   streamlit run dashboard_data_penjualan.py
    ```
 
 ## 📂 Struktur Folder
 
 ```
 .
-├── Data_Penjualan.py         # Script utama Streamlit
-├── Sample_Data_Analisis.csv  # Data penjualan
-├── dashboard.png             # Screenshot tampilan dashboard
-├── requirements.txt          # Dependensi
-└── README.md                 # Dokumentasi
+├── README.md                    # Dokumentasi
+├── Sample_Data_Analisis.csv     # Data penjualan
+├── dashboard_data_penjualan.py  # Script Utama Streamlit
+├── preview_dashboard_1.png      # Screenshot Tampilan Dashboard
+├── preview_dashboard_2.png      # Screenshot Tampilan Dashboard
+├── preview_dashboard_3.png      # Screenshot Tampilan Dashboard
+└── requirements.txt             # Dependensi
 ```
 
 ## 🙋‍♂️ Pembuat
 
 Dibuat oleh **Muhammad Syifa'ul Khuluq**  
-📧 syifa@example.com  
+📧 muhammadsyifaulk@gmail.com  
 © 2025
 
 ---
-
-> Dibangun dengan ❤️ menggunakan Streamlit
